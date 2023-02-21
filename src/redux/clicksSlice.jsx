@@ -24,7 +24,7 @@ const persistConfig = {
 // blacklist - не зберігати в localStorage те що вказано в переліку
 // whitelist - зберегти в localStorage тільки те що вказано в переліку
 
-// root просто назва ключа, може бути такою ж як назва slice
+// 'root' просто назва ключа, може бути такою ж як назва slice
 
 export const clicksReducer = persistReducer(persistConfig, clicksSlice.reducer);
 
